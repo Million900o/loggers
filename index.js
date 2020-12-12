@@ -1,1 +1,1 @@
-module.exports = require('./lib/logger.js')
+export { default } from "./lib/logger.js";
