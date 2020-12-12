@@ -1,6 +1,6 @@
 {
   "name": "loggers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loggers!",
   "main": "index.js",
   "directories": {
