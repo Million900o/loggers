@@ -1,4 +1,4 @@
-declare module 'logger' {
+declare module 'loggers' {
   interface LoggerOptions {
     debug: boolean,
     method: function,
