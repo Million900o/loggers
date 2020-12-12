@@ -1,0 +1,29 @@
+{
+  "name": "loggers",
+  "version": "0.0.1",
+  "description": "Loggers!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Million900o/loggers.git"
+  },
+  "keywords": [
+    "LOG"
+  ],
+  "author": "MILLION",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Million900o/loggers/issues"
+  },
+  "homepage": "https://github.com/Million900o/loggers#readme"
+}
