@@ -1,5 +1,5 @@
 declare module 'logger' {
-  interface Options {
+  interface LoggerOptions {
     debug: boolean,
     method: function,
     colors: boolean,
@@ -8,7 +8,7 @@ declare module 'logger' {
   }
 
   export class Logger {
-    constructor(options: Options);
+    constructor(options: LoggerOptions);
     private send: function;
     public readonly options: Options;
     private _formatArgs(): string;
