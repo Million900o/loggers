@@ -1,6 +1,4 @@
 const pkg = require('./package.json')
 
-const Logger = require('./lib/Logger.js')
-Logger.version = pkg.version
-
-module.exports = Logger
+module.exports.Logger = Logger
+module.exports.version = pkg.version
