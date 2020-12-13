@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Loggers!",
   "main": "index.js",
+  "typings": "index.d.ts",
   "directories": {
     "lib": "lib"
   },
