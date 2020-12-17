@@ -14,6 +14,7 @@ declare module 'loggers' {
     private _formatArgs(args: string[]): string;
     private _formatColors(text: string, color: any): string;
     private _newLine(): string;
+    private _parseObject(object): string;
     public log(...args: any[]): boolean;
     public warn(...args: any[]): boolean;
     public error(...args: any[]): boolean;
